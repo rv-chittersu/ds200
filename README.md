@@ -24,7 +24,7 @@ The below plots are made by processing data obtained from <https://data.gov.in/n
 
 ## Plots
 
-**Scatter Plot**
+### Scatter Plot
 
 ![Cyclonic Disturbances in Bay of Bengal & Arabian Sea (1891-2015)](images/scatter.png)
 
@@ -32,14 +32,14 @@ The below plots are made by processing data obtained from <https://data.gov.in/n
 Above scatter plot shows that Cyclonic Disturbances in Bay of Bengal have been more frequent than than of Arabian Sea over the years of 1891 to 2015.
 It can also been seen that occurances of Cyclonic disturbances in Bay of Bengal drops consitently from around year 1950.
 
-**Box Plot**
+### Box Plot
 
 ![Total Cyclonic Disturbances Over Calander Year (1891-2015)](images/box.png)
 
 **Observation:**\
 Above box plot which consist of data from 125 years shows that Cyclonic Disturbances happen most frequently in mansoon season and very rarely during winter
 
-**Bar Plot**
+### Bar Plot
 
 ![Cyclonic Disturbances from 2011 to 2015](images/bar.png)
 
