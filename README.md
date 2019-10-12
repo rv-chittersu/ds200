@@ -7,9 +7,10 @@ The Repository contains Homework for Module 4 of DS200.
 ```
 git clone git@github.com:rv-chittersu/ds200.git 
 ```
-2. .Install dependencies
+2. Extract contents and Install dependencies
 ```
 cd ds200
+unzip src.zip
 pip3 install -r requirements.txt
 ```
 3. run plots.py
