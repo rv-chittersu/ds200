@@ -28,7 +28,6 @@ x = plot1_data['Year']
 y = (plot1_data['January - December (Whole Year): BOB'],
     plot1_data['January - December (Whole Year): AS'])
 
-colors = ("red", "blue")
 groups = ("Bay of Bengal", "Arabian Sea")
 
 
@@ -36,14 +35,14 @@ fig = plt.figure()
 fig.set_size_inches(18.5, 10.5)
 ax = fig.add_subplot()
 
-ax.scatter(x, y[0], c=colors[0], alpha=0.7, label=groups[0])
-ax.scatter(x, y[1], c=colors[1], alpha=0.7, label=groups[1])
+ax.scatter(x, y[0], alpha=0.7, label=groups[0])
+ax.scatter(x, y[1], alpha=0.7, label=groups[1])
 plt.title('Cyclonic Disturbances in Bay of Bengal & Arabian Sea (1891-2015)')
 plt.xlabel('Year')
 plt.ylabel('Cyclonic Disturbances')
 plt.legend(loc=0)
 plt.savefig('images/scatter.png')
-
+plt.close() 
 
 # box plot
 # distribution of depression over seasons
@@ -67,7 +66,7 @@ plt.title('Total Cyclonic Disturbances Over Calander Year (1891-2015)')
 plt.xlabel('Seasons')
 plt.ylabel('Cyclonic Disturbances')
 plt.savefig('images/box.png')
-
+plt.close() 
 
 
 # bar plot
@@ -100,3 +99,4 @@ plt.xlabel('Years')
 plt.title('Cyclonic Disturbances from 2011 to 2015')
 plt.legend((p1[0], p2[0], p3[0]), ('Bay Of Bengal', 'Arabian Sea', 'Land'), loc=0)
 plt.savefig('images/bar.png')
+plt.close()
